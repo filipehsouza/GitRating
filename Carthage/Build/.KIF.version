@@ -1,0 +1,9 @@
+{
+  "commitish" : "v3.7.8",
+  "iOS" : [
+    {
+      "name" : "KIF",
+      "hash" : "937cdad77e8f12e3b69241fa1a960d7ce18e7a904f2d846f2f28e5ffecb63d5a"
+    }
+  ]
+}

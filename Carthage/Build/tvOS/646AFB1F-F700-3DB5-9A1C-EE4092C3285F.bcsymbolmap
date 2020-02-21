@@ -1,0 +1,26 @@
+BCSymbolMap Version: 2.0
+-[MKAnnotationView(WebCache) sd_setImageWithURL:]
+-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:]
+-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:]
+-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:]
+-[MKAnnotationView(WebCache) sd_setImageWithURL:completed:]
+-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:completed:]
+-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:completed:]
+-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:progress:completed:]
+-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]
+___101-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+___101-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]_block_invoke.7
+___copy_helper_block_.8
+___destroy_helper_block_.9
+___block_descriptor_tmp
+___block_descriptor_tmp.11
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/Pepe/Documents/Projetos/GitRating/Carthage/Checkouts/SDWebImage/SDWebImage/MapKit/MKAnnotationView+WebCache.m
+/Users/Pepe/Documents/Projetos/GitRating/Carthage/Checkouts/SDWebImage
+__destroy_helper_block_
+__copy_helper_block_
+__101-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]_block_invoke.7
+__101-[MKAnnotationView(WebCache) sd_setImageWithURL:placeholderImage:options:context:progress:completed:]_block_invoke
+/Users/Pepe/Library/Caches/org.carthage.CarthageKit/DerivedData/10.1_10B61/SDWebImage/5.5.2/Build/Intermediates.noindex/ArchiveIntermediates/SDWebImageMapKit/IntermediateBuildFilesPath/SDWebImage.build/Release-appletvos/SDWebImageMapKit.build/DerivedSources/SDWebImageMapKit_vers.c

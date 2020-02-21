@@ -1,0 +1,8 @@
+github "Alamofire/Alamofire" ~> 4.7.2
+github "SDWebImage/SDWebImage"
+
+github "Quick/Quick"
+github "Quick/Nimble"
+github "ashfurrow/Nimble-Snapshots" ~> 6.9.0
+github "kif-framework/KIF"
+github "AliSoftware/OHHTTPStubs" ~> 7.0.0

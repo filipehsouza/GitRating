@@ -1,0 +1,10 @@
+{
+  "commitish" : "6.9.1",
+  "iOS" : [
+    {
+      "name" : "Nimble_Snapshots",
+      "hash" : "3b550baa61656ce93a504f272d611b751cf308c0ead340b354216aefe5c4f6d2",
+      "swiftToolchainVersion" : "4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+    }
+  ]
+}
