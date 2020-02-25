@@ -35,27 +35,27 @@
 <tr class="covered">
 <td class="num">5</td>
 <td class="src"><pre><code class="objc">    func anchor (top: NSLayoutYAxisAnchor?, left: NSLayoutXAxisAnchor?, bottom: NSLayoutYAxisAnchor?, right: NSLayoutXAxisAnchor?, paddingTop: CGFloat, paddingLeft: CGFloat, paddingBottom: CGFloat, paddingRight: CGFloat, width: CGFloat, height: CGFloat, enableInsets: Bool) {</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">6</td>
 <td class="src"><pre><code class="objc">        var topInset = CGFloat(0)</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">7</td>
 <td class="src"><pre><code class="objc">        var bottomInset = CGFloat(0)</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">8</td>
 <td class="src"><pre><code class="objc">        </code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">9</td>
 <td class="src"><pre><code class="objc">        if #available(iOS 11, *), enableInsets {</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">10</td>
@@ -90,122 +90,122 @@
 <tr class="covered">
 <td class="num">16</td>
 <td class="src"><pre><code class="objc">        }</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">17</td>
 <td class="src"><pre><code class="objc">        </code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">18</td>
 <td class="src"><pre><code class="objc">        translatesAutoresizingMaskIntoConstraints = false</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">19</td>
 <td class="src"><pre><code class="objc">        </code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">20</td>
 <td class="src"><pre><code class="objc">        if let top = top {</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">21</td>
 <td class="src"><pre><code class="objc">            self.topAnchor.constraint(equalTo: top, constant: paddingTop+topInset).isActive = true</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">22</td>
 <td class="src"><pre><code class="objc">        }</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">23</td>
 <td class="src"><pre><code class="objc">        if let left = left {</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">24</td>
 <td class="src"><pre><code class="objc">            self.leftAnchor.constraint(equalTo: left, constant: paddingLeft).isActive = true</code></pre></td>
-<td class="coverage">115x</td>
+<td class="coverage">121x</td>
 </tr>
 <tr class="covered">
 <td class="num">25</td>
 <td class="src"><pre><code class="objc">        }</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">26</td>
 <td class="src"><pre><code class="objc">        if let right = right {</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">27</td>
 <td class="src"><pre><code class="objc">            rightAnchor.constraint(equalTo: right, constant: -paddingRight).isActive = true</code></pre></td>
-<td class="coverage">39x</td>
+<td class="coverage">41x</td>
 </tr>
 <tr class="covered">
 <td class="num">28</td>
 <td class="src"><pre><code class="objc">        }</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">29</td>
 <td class="src"><pre><code class="objc">        if let bottom = bottom {</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">30</td>
 <td class="src"><pre><code class="objc">            bottomAnchor.constraint(equalTo: bottom, constant: -paddingBottom-bottomInset).isActive = true</code></pre></td>
-<td class="coverage">77x</td>
+<td class="coverage">81x</td>
 </tr>
 <tr class="covered">
 <td class="num">31</td>
 <td class="src"><pre><code class="objc">        }</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">32</td>
 <td class="src"><pre><code class="objc">        if height != 0 {</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">33</td>
 <td class="src"><pre><code class="objc">            heightAnchor.constraint(equalToConstant: height).isActive = true</code></pre></td>
-<td class="coverage">38x</td>
+<td class="coverage">40x</td>
 </tr>
 <tr class="covered">
 <td class="num">34</td>
 <td class="src"><pre><code class="objc">        }</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">35</td>
 <td class="src"><pre><code class="objc">        if width != 0 {</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">36</td>
 <td class="src"><pre><code class="objc">            widthAnchor.constraint(equalToConstant: width).isActive = true</code></pre></td>
-<td class="coverage">38x</td>
+<td class="coverage">40x</td>
 </tr>
 <tr class="covered">
 <td class="num">37</td>
 <td class="src"><pre><code class="objc">        }</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">38</td>
 <td class="src"><pre><code class="objc">        </code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="covered">
 <td class="num">39</td>
 <td class="src"><pre><code class="objc">    }</code></pre></td>
-<td class="coverage">153x</td>
+<td class="coverage">161x</td>
 </tr>
 <tr class="never">
 <td class="num">40</td>
