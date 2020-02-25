@@ -1,7 +1,7 @@
 import Foundation
 import Quick
 import Nimble
-import OHHTTPStubs
+import Nimble_Snapshots
 @testable import GitRating
 
 class GitListTableViewCellSpec: QuickSpec {
@@ -40,6 +40,29 @@ class GitListTableViewCellSpec: QuickSpec {
                 expect(cell.gitRepoStartCountLabel.isHidden).to(beTrue())
                 expect(cell.gitRepoAuthorNameLabel.isHidden).to(beTrue())
                 
+            })
+        }
+        
+        describe("GitListTableViewCell view") {
+            describe("should have valid snapshot", closure: {
+                it("loading view", closure: {
+                    let cell: GitListTableViewCell = GitListTableViewCell()
+                    cell.configure(with: .none)
+                    
+                    expect(cell) == snapshot("loadin cell")
+                })
+                
+                it("loaded view", closure: {
+                    
+                    let cell: GitListTableViewCell = GitListTableViewCell()
+                    
+                    let owner:Owner = Owner(login: "mock", avatarURL: "mock")
+                    let item:Item = Item(name: "mock", owner: owner, stargazersCount: 1)
+                    
+                    cell.configure(with: item)
+                    
+                    expect(cell) == snapshot("loaded cell")
+                })
             })
         }
     }
